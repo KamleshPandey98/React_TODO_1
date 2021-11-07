@@ -18,8 +18,9 @@ body {
   padding: 10px;
 }
 
-.list ul li button {
-  position: absolute;
+.list ul li .btn {
+  position: relative;
+  float: right;
   right: 0%;
   background: #f34541;
   color: #fff !important;
@@ -29,9 +30,13 @@ body {
   margin-right: 10px;
   padding: 10px;
   border-radius: 0.4rem;
-  display: inline-block;
+  display: inline;
   border: none;
 }
+
+/* .list #btnList {
+  justify-content: space-between;
+} */
 
 .add-btn {
   color: #fff !important;
